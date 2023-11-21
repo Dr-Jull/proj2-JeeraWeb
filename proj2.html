@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeera Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="proj2.css" rel="stylesheet" href="">
+</head>
+
+<body>
+    <main>
+        <div class="section1-container">
+            <div class="header" id="header">
+                <div class="logo-container">
+                    <a class="logo" href="#"><h1>Jera.</h1></a>
+                </div>
+                <div class="all-links">
+                    <a class="home_link" href="#"><span class="links_font">Home</span></a>
+                    <a class="services_link" href="#"><span class="links_font">Services</span></a>
+                    <a class="prices_link" href="#"><span class="links_font">Pricing</span></a>
+                    <a class="portfolio_link" href="#"><span class="links_font">Portfolio</span></a>
+                    <a class="contact_link" href="#"><span class="links_font">Contact</span></a>                        
+                    <div class="social-media_links">
+                        <a class ="x_link"href=""><img src="twitter (1).png" alt=""></a>
+                        <a class="insta_link" href=""><img src="instagram.png" alt=""></a>
+                        <a class="fb_link" href=""><img src="facebook.png" alt=""></a>
+                        </a>
+                    </div>
+                    <a class="search" href=""><img src="search-interface-symbol.png" alt=""></a>
+                </div>
+            </div>
+            <div class="section1">
+                <div class="row1">
+                    <div class="image1-container">
+                        <img class="img1" src="img1.jpg" alt="">
+                    </div>
+                    <div class="right_part">
+                        <div class="text1-container">
+                            <h1 class="jeera_text">Jeera agency is ready to take your project.</h1>
+                            <button class="read-more_button">READ MORE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section2-container">
+            <div class="section2">
+                    <div class="row2-1">
+                        <h1 class="our_services"> Our Services. </h1>
+                        <hr class="separating_line">
+                        <p class="dummy-text">Simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                    <div class="row2-2">
+                        <div class="service_info">
+                            <img class="service_logo" src="television.png" alt="">
+                            <h3 class="service_name">Creative Designers</h3>
+                            <p class="service_description">Lorem Ipsum is simply dummy text of the printing</p>
+                        </div>
+                        <div class="service_info">
+                            <img class="service_logo" src="database.png" alt="">
+                            <h3 class="service_name">iOS Developer</h3>
+                            <p class="service_description">Lorem Ipsum is simply dummy text of the printing</p>
+                        </div>
+                        <div class="service_info">
+                            <img class="service_logo" src="server_4595875.png" alt="">
+                            <h3 class="service_name">Maintainance</h3>
+                            <p class="service_description">Lorem Ipsum is simply dummy text of the printing</p>
+                        </div>
+                        <div class="service_info">
+                            <img class="service_logo" src="calendar.png" alt="">
+                            <h3 class="service_name">Time Management</h3>
+                            <p class="service_description">Lorem Ipsum is simply dummy text of the printing</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section3-container">
+            <div class="section3">
+                <div class="text3-container">
+                    <div class="text3">
+                        <div class="column1-1">
+                            <h1 class="our_features">Our Features.</h1>
+                            <hr class="separating_line2">
+                            <p class="dummy-text2">Simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class="column1-2">
+                            <div class="feature_info">
+                                <img class="feature_logo" src="technical_sol.png" alt="">
+                                <h3 class="feature_name">Technical Solutions</h3>
+                                <p class="feature_description">The page to let us know how we can make it even better.</p>
+                            </div>
+                            <div class="feature_info">
+                                <img class="feature_logo" src="unlimited.png" alt="" >
+                                <h3 class="feature_name">Unlimited Features</h3>
+                                <p class="feature_description">The page to let us know how we can make it even better.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img2-container">
+                    <img class="img2" src="img2.jpg" alt="" >
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+<script>
+    window.onscroll= function() {
+        let header=document.getElementById("header");
+        if(document.body.scrollTop > 810 || document.documentElement.scrollTop > 810){
+            header.style.backgroundColor = "white";
+        }
+        else {
+            header.style.backgroundColor = "transparent";
+        }
+
+    }
+</script>

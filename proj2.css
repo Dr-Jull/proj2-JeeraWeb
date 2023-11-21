@@ -1,0 +1,284 @@
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    main{
+        box-sizing: border-box;
+    }
+    .section1-container{
+        /* border: 2px rgb(0, 0, 0) solid; */
+        box-sizing: border-box;
+        width: 100%;
+        height: auto;
+        display: flex;
+        
+    }
+    .header{
+        /* border: 2px red solid; */
+        justify-content: space-between;
+        display: flex;
+        align-items: center; 
+        position: fixed;
+        flex-direction: row wrap;
+        width: 100%;
+    }
+    .logo-container{
+        /* border: 2px green solid; */
+        width: 50%;
+        padding-left: 90px;
+
+    }
+    .logo{
+        text-decoration: none;
+        font-family: 'Manrope', sans-serif;
+        color: #444444;
+    }
+    .all-links{
+        /* border: 2px blue solid; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-right: 53.3px;
+    }
+    .all-links *{
+        text-decoration: none;
+    }
+    .links_font{
+        padding: 15px;
+        color: #444444;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+    }
+    .social-media_links{
+        /* border: 2px red solid; */
+        align-items: center;
+        display: flex;
+    }
+    .social-media_links *{
+        padding: 7px;
+    }
+    .search{
+        padding: 17px;
+    }
+    .row1{
+        /* border: 1px rgb(47, 0, 255) solid; */
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .image1-container{
+        /* border: 2px rgb(0, 255, 42) solid; */
+        display: block;
+    }
+    .img1{
+        display: block;
+    }
+    .right_part{
+        /* border: 2px rgb(255, 140, 0) solid; */
+        align-items: center;
+        justify-content: center;
+        padding-left: 150px;
+        padding-right: 100px;
+        margin: auto;
+    }
+    .text1-container{
+        /* border: 2px yellowgreen solid;  */
+        padding-right: 15px;
+        padding-left: 15px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .jeera_text{
+        /* border: 2px rgb(255, 0, 225) solid; */
+        font-weight: 700;
+        color: #232323;
+        font-family: 'Manrope', sans-serif;
+        font-size: 82px;
+        justify-content: center;
+        text-align:left;
+        line-height: 1.1;
+        display: block;
+        
+    }
+    .read-more_button{
+        background-color: #000000;
+        color: aliceblue;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 700;
+        transition: background-color 0.3s ease;
+        letter-spacing: 4px;
+        margin-top: 50px;
+        font-size: 13px;
+        padding: 7px 25px 7px 28px;
+        display: table;
+    }
+    .read-more_button:hover{
+        background-color: #ffffff;
+        color: #000000;
+    }
+
+    .section2-container{
+        /* border: 2px rgb(255, 0, 0) solid; */
+        display: flex;
+        background-color: #8c8c8c0f;
+        align-items: center;
+        justify-content: center;
+        padding: 150px 0px;
+    }
+    .section2{
+        /* border: 1px green solid; */
+        display:flex;
+        margin: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Manrope', sans-serif;
+        justify-content: space-around;
+        width: 100%;
+        
+    }
+    .row2-1{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .our_services{
+        color: #232323;
+        font-family: 'Manrope', sans-serif;
+        font-size: 55px;
+        font-weight: 700;
+    }
+    .separating_line{
+        width: 100px;
+        margin: 30px 0px;
+
+    }
+    .dummy-text{
+        color: #444444;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+    }
+    .row2-2{
+        /* border: 1px orange solid; */
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin-top: 75px;
+        gap: 40px;
+    }
+    .service_info{
+        /* border: 1px red solid; */
+        display: flex;
+        flex-direction: column;
+        width: 17%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .service_logo{
+        height: 38px;
+    }
+    .service_name{
+        margin: 25px 0px;
+        font-family: 'Manrope', sans-serif;
+        font-weight: 700;
+        font-size: 25px;
+        color: black;
+    }
+    .service_description{
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        color: #585858;
+        font-weight: 400;
+        margin: auto;
+        line-height: 30px;
+    }
+
+    .section3-container{
+        /* border: 3px green solid; */
+        box-sizing: border-box;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .section3{
+        /* border: 2px purple solid; */
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .text3-container{
+        /* border: 2px rgb(0, 255, 238) solid; */
+        width: 50%;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .text3{
+        /* border: 3px black solid; */
+        padding: 0px 15px;
+        margin: 0px 115px;
+        text-align: left;
+    }
+    .our_features{
+        color: #232323;
+        font-family: 'Manrope', sans-serif;
+        font-size: 55px;
+        font-weight: 700;
+    }
+    .separating_line2{
+        width: 50px;
+        margin: 30px 0px;
+    }
+    .dummy-text2{
+        color: #444444;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+    }
+    .feature_info{
+        /* border: 1px red solid; */
+        padding-right:50px;
+        align-items: center;
+        text-align: left; 
+        margin: 70px 0px;
+    }
+    .feature_logo{
+        height: 45px;
+
+    }
+    .feature_name{
+        margin: 25px 0px;
+        font-family: 'Manrope', sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+        color: black;
+    }
+    .feature_description{
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        color: #585858;
+        font-weight: 400;
+        margin: auto;
+        line-height: 25px;
+    }
+    
+    .img2-container{
+        /* border: 2px yellow solid; */
+        max-width: 50%;
+        display: flex;
+        overflow: hidden;
+    }
+    .img2{
+        width: 100%;
+
+    }
+
+
+
+
