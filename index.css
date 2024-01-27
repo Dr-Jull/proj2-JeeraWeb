@@ -3,16 +3,19 @@
         margin: 0;
         padding: 0;
     }
+    body{
+        /* border: 2px red solid; */
+    }
     main{
-        box-sizing: border-box;
+        /* border: 2px blue solid; */
     }
     .section1-container{
         /* border: 2px rgb(0, 0, 0) solid; */
         box-sizing: border-box;
         width: 100%;
         height: auto;
-        display: flex;
-        
+        /* display: flex;
+        flex-wrap: wrap; */
     }
     .header{
         /* border: 2px red solid; */
@@ -20,12 +23,15 @@
         display: flex;
         align-items: center; 
         position: fixed;
-        flex-direction: row wrap;
+        flex-direction: row;
         width: 100%;
+        top: 0px;
+        right: 0px;
+        left: 0px;
     }
     .logo-container{
         /* border: 2px green solid; */
-        width: 50%;
+        /* width: 50%; */
         padding-left: 90px;
 
     }
@@ -74,13 +80,14 @@
     }
     .img1{
         display: block;
+        width: 100%;
     }
     .right_part{
         /* border: 2px rgb(255, 140, 0) solid; */
         align-items: center;
         justify-content: center;
-        padding-left: 150px;
-        padding-right: 100px;
+        /* padding-left: 150px; */
+        /* padding-right: 100px; */
         margin: auto;
     }
     .text1-container{
@@ -100,7 +107,7 @@
         justify-content: center;
         text-align:left;
         line-height: 1.1;
-        display: block;
+        /* display: block; */
         
     }
     .read-more_button{
@@ -119,10 +126,11 @@
         background-color: #ffffff;
         color: #000000;
     }
-
+    
     .section2-container{
         /* border: 2px rgb(255, 0, 0) solid; */
         display: flex;
+        flex-wrap: wrap;
         background-color: #8c8c8c0f;
         align-items: center;
         justify-content: center;
@@ -131,6 +139,7 @@
     .section2{
         /* border: 1px green solid; */
         display:flex;
+        flex-wrap: wrap;
         margin: auto;
         flex-direction: column;
         justify-content: center;
@@ -156,7 +165,6 @@
     .separating_line{
         width: 100px;
         margin: 30px 0px;
-
     }
     .dummy-text{
         color: #444444;
@@ -166,7 +174,6 @@
     .row2-2{
         /* border: 1px orange solid; */
         display: flex;
-        flex-flow: row wrap;
         justify-content: center;
         margin-top: 75px;
         gap: 40px;
@@ -198,7 +205,7 @@
         margin: auto;
         line-height: 30px;
     }
-
+    
     .section3-container{
         /* border: 3px green solid; */
         box-sizing: border-box;
@@ -215,7 +222,8 @@
     }
     .text3-container{
         /* border: 2px rgb(0, 255, 238) solid; */
-        width: 50%;
+        max-width: 50%;
+        height: auto;
         display: flex;
         justify-content:center;
         align-items: center;
@@ -250,7 +258,7 @@
     }
     .feature_logo{
         height: 45px;
-
+        
     }
     .feature_name{
         margin: 25px 0px;
@@ -271,14 +279,88 @@
     .img2-container{
         /* border: 2px yellow solid; */
         max-width: 50%;
-        display: flex;
+        display: block;
         overflow: hidden;
     }
     .img2{
-        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+    @media screen and (max-width: 1221px) {
+        .jeera_text{
+            font-size: 75px;
+        }
+    }
+    @media screen and (max-width: 1180px) {
+        .jeera_text{
+            font-size: 60px;
+        }
 
     }
+    @media screen and (max-width:1007px) {
+        .row1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .section2-container{
+            padding: 80px 0px;
+        }
+        .row2-2{
+          gap: 60px;  
+        }
+        .section3{
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+        .separating_line{
+            width: 100px;
+            margin: 20px 0px;
+        }
+    }
+    @media screen and (max-width:1081px) {
+        .row2-2{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 50px;
+        }
+        .service_info{
+            width: 190px;
+        }
+        .separating_line{
+            width: 100px;
+            margin: 10px 0px;
+        }
+    }
+    @media screen and (max-width: 1000px) {
+        .text3-container{
+            max-width: 100%;
+            overflow: hidden;
+        }
+        .img2-container{
+            max-width: 100%;
+        }
+        .img2{
+            width: 100%;
+        }
 
+    }
+    @media screen and (max-width:807px) {
+        .img1-container{
+            display: flex;
+        }
+        .img1{
+            display: flex;
+        }
 
-
-
+        .section3 {
+            flex-direction: column;
+            width: 100%;
+        }
+    }
+    
+    
+    
+    
+    
+    
